@@ -1,13 +1,12 @@
 {
   "name": "@ashnkumar/VeReact",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ashnkumar"
+  },
   "version": "0.1.0",
   "main": "dist/index.js",
   "private": false,
   "files": ["dist", "README.md"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ashnkumar/VeReact"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
